@@ -30,7 +30,7 @@ Both the **question paper (PDF)** and the **solution file (`.sql`)** have been u
 2. Create or select the required database
 3. Open and run the solution file:
 4. https://github.com/ankitamishraa780-byte/SQL-Lab-work.git
-5. 4. Execute the queries in sequence
+5. Execute the queries in sequence
 6. Verify results using `SELECT` statements
 
 ---
