@@ -39,7 +39,7 @@ Both the **question paper (PDF)** and the **solution file (`.sql`)** have been u
 - SQL queries are executed in the given order  
 - The user has basic knowledge of SQL  
 - The DBMS supports standard SQL syntax  
-- The `.sql` file is used instead of screenshots or copied output  
+- The' https://github.com/ankitamishraa780-byte/SQL-Lab-work.git' file is used instead of screenshots or copied output  
 
 ---
 
