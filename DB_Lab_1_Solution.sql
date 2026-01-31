@@ -1,17 +1,4 @@
 SQL> CREATE TABLE student (
-   Roll No INT,
-   Name VARCHAR(50),
-   Dept VARCHAR(20),
-  Age INT,
- Phone VARCHAR(15)
-   );
-Roll No INT,
-        *
-ERROR at line 2:
-ORA-00907: missing right parenthesis
-
-
-SQL> CREATE TABLE student (
  RollNo INT,
  Name VARCHAR(50),
    Dept VARCHAR(20),
@@ -330,4 +317,5 @@ SQL> DESC Student
  SEMESTER                                           NUMBER(38)
 
 SQL>
+
 
