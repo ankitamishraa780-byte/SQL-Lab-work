@@ -1,1 +1,24 @@
 # SQL-Lab-work
+# DBMS Lab – 1  
+## SQL (DDL & DML Operations)
+
+---
+
+### 👩‍🎓 Student Details
+- **Name:** Ankita Mishra  
+- **Roll No:** 23706  
+- **Semester:** 5th  
+- **Course:** B.Tech (CSE / AI & ML)  
+- **Subject:** Database Management Systems Laboratory  
+
+---
+
+## 📌 About the Assignment
+This repository contains **DBMS Lab – 1 SQL assignment**.  
+The lab focuses on implementing **DDL and DML SQL commands** using properly written `.sql` scripts.
+
+Both the **question paper (PDF)** and the **solution file (`.sql`)** have been uploaded as required.
+
+---
+
+## 📂 Repository Structure
