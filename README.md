@@ -42,8 +42,47 @@ Both the **question paper (PDF)** and the **solution file (`.sql`)** have been u
 - The' https://github.com/ankitamishraa780-byte/SQL-Lab-work.git' file is used instead of screenshots or copied output  
 
 ---
+📘 DBMS Laboratory – Lab 2
+Semester: 5th
+Course: B.Tech (CSE / AI & ML)
+Subject: Database Management Systems Laboratory
+📌 About the Assignment
+This lab focuses on designing a College Management System database.
+The ER Model was created using draw.io, where entities, attributes, relationships, and cardinalities were defined clearly.
+The ER diagram was then converted into a Relational Diagram, and finally implemented using SQL DDL commands.
+🗂 ER Model
+The ER diagram includes the following entities:
+Student
+Department
+Faculty
+Course
+Enrollment
+Relationships and cardinalities were properly represented.
+The many-to-many relationship between Student and Course was resolved using the Enrollment entity.
+🔗 Relational Diagram
+In the relational diagram:
+Each entity was converted into a table
+Primary Keys (PK) were defined
+Foreign Keys (FK) were used to maintain relationships
+Data integrity constraints were properly implemented
+💻 SQL Implementation
+The relational schema was implemented using CREATE TABLE statements with appropriate:
+Primary Keys
+Foreign Keys
+Constraints
+📂 Repository Structure
+Copy code
 
-## ✅ Conclusion
-This assignment helped in understanding **basic SQL operations**, database structure, and correct usage of DDL and DML commands through hands-on practice.
+DB-Lab-2
+│── ER-Diagram.drawio / PDF
+│── Relational-Diagram.png
+│── Lab-2.sql
+│── README.md
+▶️ How to Execute
+Open SQL editor (MySQL Workbench / Oracle / SQLite)
+Create or select the database
+Open and run Lab-2.sql
+Verify tables using SELECT statements
+✅ Conclusion
+This lab helped in understanding ER modeling using draw.io, relational schema conversion, and implementation of database tables using SQL with proper constraints and relationships.
 
----
