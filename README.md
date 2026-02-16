@@ -43,7 +43,9 @@ Both the **question paper (PDF)** and the **solution file (`.sql`)** have been u
 
 ---
 📘 DBMS Laboratory – Lab 2
+
 Semester: 5th
+
 Course: B.Tech (CSE / AI & ML)
 Subject: Database Management Systems Laboratory
 📌 About the Assignment
