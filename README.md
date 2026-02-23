@@ -87,4 +87,9 @@ Open and run Lab-2.sql
 Verify tables using SELECT statements
 ✅ **Conclusion**
 This lab helped in understanding ER modeling using draw.io, relational schema conversion, and implementation of database tables using SQL with proper constraints and relationships.
+.
 
+📘 DBMS Lab–3: Data Collection and Data Insertion
+1. Experiment Title
+
+Data Collection and Data Insertion in College Database
