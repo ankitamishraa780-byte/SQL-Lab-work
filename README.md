@@ -93,3 +93,169 @@ This lab helped in understanding ER modeling using draw.io, relational schema co
 1. Experiment Title
 
 Data Collection and Data Insertion in College Database
+2. Objective
+
+The objective of this lab is to understand real-world data collection and insertion in a relational database using SQL.
+This experiment focuses on collecting authentic institutional data and storing it in a structured database while maintaining data consistency and integrity.
+
+. Database Used
+
+The database schema created in Lab–2 (ER Diagram and Tables) has been used for this experiment.
+
+Tables Used:
+
+Department
+
+Faculty
+
+Course
+
+Student
+
+Enrollment
+
+4. College Information
+
+All data used in this experiment corresponds to:
+
+B.P. Mandal College of Engineering, Madhepura, Bihar
+
+5. Data Collection Method
+
+All data has been collected from authentic and reliable sources such as:
+
+Official College Website
+
+Department Webpages
+
+Class Timetable
+
+Syllabus / Prospectus
+
+Academic Notices
+
+Class Roll List / Friend’s Details (for variation)
+
+No imaginary or copied data has been used.
+
+6. Data Sources
+S.No	Source Type	Link / Reference
+1	College Website	https://www.bpmcemadhepura.org
+
+2	Department Page	(Mention Link)
+3	Class Timetable	(Attach Screenshot)
+4	Syllabus	(Mention PDF Link)
+5	Academic Notice	(Attach Screenshot)
+7. Data Description
+7.1 Department Table
+
+Department ID
+
+Department Name
+
+Office Location / Block
+
+7.2 Faculty Table
+
+Faculty ID
+
+Faculty Name
+
+Designation
+
+Official Email
+
+Department ID
+
+7.3 Course Table
+
+Course ID
+
+Course Name
+
+Credits
+
+Department ID
+
+Faculty ID
+
+7.4 Student Table
+
+Student ID
+
+Student Name
+
+Date of Birth
+
+Gender
+
+Contact Number (Dummy)
+
+Department ID
+
+7.5 Enrollment Table
+
+Student ID
+
+Course ID
+
+Semester
+
+Grade (Assumed)
+
+8. Data Insertion Details
+
+Minimum 10 records inserted in:
+
+Student
+
+Course
+
+Enrollment
+
+All INSERT queries are written in a single SQL file.
+
+Foreign key constraints and primary key rules are strictly followed.
+
+Order of insertion:
+
+Department → Faculty → Course → Student → Enrollment
+9. Files Submitted
+File Name	Description
+college_data.sql	Contains all INSERT queries
+Screenshots	Proof of successful data insertion
+README.md	Experiment documentation
+10. Sample Verification Queries
+
+To verify successful insertion, the following queries were executed:
+
+SELECT * FROM Department;
+SELECT * FROM Faculty;
+SELECT * FROM Course;
+SELECT * FROM Student;
+SELECT * FROM Enrollment;
+
+Screenshots of the outputs are attached.
+
+11. Result
+
+All collected data was successfully inserted into the database.
+No primary key duplication or foreign key violation occurred.
+The database maintains proper relational integrity.
+
+12. Precautions
+
+Only authentic data was used.
+
+No random or fake values were inserted.
+
+Dummy contact numbers were used for privacy.
+
+Data consistency was maintained.
+
+Proper insertion sequence was followed.
+
+13. Conclusion
+
+This experiment helped in understanding real-life data collection and its insertion into a relational database.
+It improved practical knowledge of SQL INSERT operations, constraints, and database integrity management.
